@@ -58,7 +58,7 @@ def get_file_prompt(file_name,json_response):
     bold text etc. while writing python code.
     Export the description of functions, class and class method to a table in word file.
     The name for output word file should be {file_name}.docx; it should be exported to 
-    "C:-->Users-->Admin-->Desktop"
+    "C:-->Users-->Admin-->Desktop". Make sure the path in code to export uses double slashes
     code description: 
     ```{json_response}```
     ONly provide code which can be directly executed, no other information.
